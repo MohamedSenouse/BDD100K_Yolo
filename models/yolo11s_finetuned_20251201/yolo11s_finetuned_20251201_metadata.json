@@ -1,0 +1,28 @@
+{
+  "model_name": "yolo11s",
+  "finetuned_name": "yolo11s_finetuned_20251201",
+  "model_path": "/home/adminai/src-code/CV/project_repo/models/yolo11s_finetuned_20251201/yolo11s_finetuned_20251201.pt",
+  "dataset": "/home/adminai/src-code/CV/project_repo/bdd100k_yolo_limited",
+  "training_date": "2025-12-01T07:00:24.052202",
+  "training_run": "yolo11s_train_20251130_075906",
+  "training_run_path": "/home/adminai/src-code/CV/project_repo/tune_train/training/yolo11s_train_20251130_075906",
+  "optimization": {
+    "tuning_run": null,
+    "tuning_run_path": "None"
+  },
+  "best_hyperparameters": {},
+  "training_params": {
+    "epochs": 90,
+    "batch_size": 32,
+    "image_size": 640,
+    "patience": 15,
+    "save_period": 3
+  },
+  "final_metrics": {
+    "map50": 0.5198831094304529,
+    "map50_95": 0.29539172194623764,
+    "precision": 0.608968983047588,
+    "recall": 0.47379915758232566
+  },
+  "improvement_vs_tuning": 0
+}

@@ -1,0 +1,25 @@
+{
+  "model": "yolo11s_finetuned_20251201",
+  "dataset_root": "/home/adminai/src-code/CV/project_repo/bdd100k_yolo_tiny",
+  "data_yaml_path": "/home/adminai/src-code/CV/project_repo/tmp/yolo11s_finetuned_20251201/data.yaml",
+  "optimization_results": {
+    "best_trial": 16,
+    "best_map50": 0.5523124078127452,
+    "total_trials": 50,
+    "optimization_duration": "1:11:43.933828"
+  },
+  "hyperparameters": {
+    "imgsz": 768,
+    "optimizer": "SGD",
+    "lr0": 0.0014266301191773261,
+    "momentum": 0.9694581216785425,
+    "weight_decay": 0.0005408962177381937,
+    "warmup_epochs": 3,
+    "warmup_momentum": 0.895636626196151,
+    "warmup_bias_lr": 0.06052637637356499,
+    "mosaic": 0.879214287562742,
+    "mixup": 0.06839573122710534
+  },
+  "timestamp": "2025-12-01T06:13:48.078393",
+  "notes": "Use these hyperparameters for training. Add epochs, batch, imgsz, device, and other training settings."
+}

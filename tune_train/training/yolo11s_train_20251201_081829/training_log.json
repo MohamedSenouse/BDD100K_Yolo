@@ -1,0 +1,32 @@
+{
+  "start_time": "2025-12-01 08:19:26",
+  "model": "yolo11s",
+  "dataset": "bdd100k_yolo_limited",
+  "config_mode": "tuned",
+  "tuning_run": "yolo11s_finetuned_20251201_tune_20251201_050018",
+  "best_hyperparameters": {
+    "imgsz": 768,
+    "optimizer": "SGD",
+    "lr0": 0.0014266301191773261,
+    "momentum": 0.9694581216785425,
+    "weight_decay": 0.0005408962177381937,
+    "warmup_epochs": 3,
+    "warmup_momentum": 0.895636626196151,
+    "warmup_bias_lr": 0.06052637637356499,
+    "mosaic": 0.879214287562742,
+    "mixup": 0.06839573122710534
+  },
+  "epochs": 70,
+  "batch_size": 16,
+  "image_size": 640,
+  "end_time": "2025-12-01 15:14:16",
+  "status": "completed",
+  "duration": "6:54:41.919592",
+  "final_metrics": {
+    "metrics/precision(B)": 0.6496014833731002,
+    "metrics/recall(B)": 0.5009758680987405,
+    "metrics/mAP50(B)": 0.5534090951692955,
+    "metrics/mAP50-95(B)": 0.31851898715318466,
+    "fitness": 0.31851898715318466
+  }
+}

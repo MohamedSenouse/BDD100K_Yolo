@@ -5,3 +5,8 @@ bdd100k_yolo_tiny/
 bdd100k_yolo_tuning/
 bdd100k_tmp_images/
 bdd100k_tmp_labels/
+tmp/
+tune_train/training/**/weights/epoch*.pt
+tune_train/tune/**/trial_*/**/weights
+
+

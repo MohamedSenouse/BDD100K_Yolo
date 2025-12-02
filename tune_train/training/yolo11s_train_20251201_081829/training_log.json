@@ -1,5 +1,5 @@
 {
-  "start_time": "2025-12-01 08:19:26",
+  "start_time": "2025-12-02 17:08:45",
   "model": "yolo11s",
   "dataset": "bdd100k_yolo_limited",
   "config_mode": "tuned",
@@ -19,14 +19,12 @@
   "epochs": 70,
   "batch_size": 16,
   "image_size": 640,
-  "end_time": "2025-12-01 15:14:16",
-  "status": "completed",
-  "duration": "6:54:41.919592",
   "final_metrics": {
-    "metrics/precision(B)": 0.6496014833731002,
-    "metrics/recall(B)": 0.5009758680987405,
-    "metrics/mAP50(B)": 0.5534090951692955,
-    "metrics/mAP50-95(B)": 0.31851898715318466,
-    "fitness": 0.31851898715318466
-  }
+    "map50": 0.5537741681548399,
+    "map50_95": 0.3191989300963771,
+    "precision": 0.6475583571525044,
+    "recall": 0.5024522926854077
+  },
+  "best_model_path": "/home/adminai/src-code/CV/project_repo/tune_train/training/yolo11s_train_20251201_081829/weights/best.pt",
+  "last_model_path": "/home/adminai/src-code/CV/project_repo/tune_train/training/yolo11s_train_20251201_081829/weights/last.pt"
 }
